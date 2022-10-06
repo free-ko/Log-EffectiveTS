@@ -1,11 +1,9 @@
-     # 1주차
+# 1주차
 
 ## 학습 방향 및 목적
 - 키워드 중심으로 학습
 - TS는 왜 쓰는지?, 어떻게 쓰는지, Type, InterFace는 각각 어떤 역할을 하는지?, Generic은 무엇인지?
 - TS를 효과적으로 사용하는 방법은 무엇인지?
-
-<br>
 
 ## 학습 내용 정리
 - 런타임 : JS가 동작하는 과정
@@ -18,26 +16,26 @@
 - union : 공통된 타입을 필수 타입으로 생각
 - never type과 void 타입 차이는?
 - 공집합(never) → 리터럴(1개) → 유니온 타입
+- `extends`는 `generic`에서 핵심
 
-<br>
-
-### 예시
+### 타입과 값 예시
 ```jsx
-let a = 'foo' // string 값이 할당할 수 있기 때문에
-const a = 'foo' // 'foo' 타입 값을 할 당 할 수 없어서 - 문자열 리터럴 
+let a = 'foo' // let으로 선언했기 때문에 string type
+const a = 'foo' // const로 선언했기 때문에 foo라는 문자열 리터럴 타입 
 
-typeof a === 'string' // 타입 체킹
+typeof a === 'string' // 타입 체크 방법
 ```
 
-- extends는 generic에 ~~핵심임~~
+### extends 타입 확장 예시
+```
+T extends HTMLElement // T 타입은 HTMLElement을 포함
+```
 
-  ex) `<T extends HTMLElement >` : T 타입은 무조건 HTMLElement에서 나옴
 
-
-TS this 못쓰게 하는 이유
-
+## TS에서 this 못쓰게 하는 이유
 - 예측 하기 어려움
 - tsconfig this 못쓰게 함
+
 
 class, enum은 타입과 값이 2가지 있음 → enum 사용하지 마삼
 
