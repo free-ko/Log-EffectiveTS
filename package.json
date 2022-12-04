@@ -1,0 +1,23 @@
+{
+  "name": "study-ef-ts",
+  "description": "Effective-TypeScript Study 학습 정리",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/free-ko/Log-EffectiveTS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/free-ko/Log-EffectiveTS/issues"
+  },
+  "homepage": "https://github.com/free-ko/Log-EffectiveTS#readme",
+  "devDependencies": {
+    "@types/geojson": "^7946.0.10",
+    "prettier": "^2.8.0"
+  }
+}

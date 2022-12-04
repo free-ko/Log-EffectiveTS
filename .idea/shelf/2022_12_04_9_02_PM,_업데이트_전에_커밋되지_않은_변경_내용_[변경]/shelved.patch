@@ -1,0 +1,661 @@
+Index: package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package-lock.json b/package-lock.json
+new file mode 100644
+--- /dev/null	(date 1669697858482)
++++ b/package-lock.json	(date 1669697858482)
+@@ -0,0 +1,52 @@
++{
++  "name": "study-ef-ts",
++  "version": "1.0.0",
++  "lockfileVersion": 2,
++  "requires": true,
++  "packages": {
++    "": {
++      "name": "study-ef-ts",
++      "version": "1.0.0",
++      "license": "ISC",
++      "devDependencies": {
++        "@types/geojson": "^7946.0.10",
++        "prettier": "^2.8.0"
++      }
++    },
++    "node_modules/@types/geojson": {
++      "version": "7946.0.10",
++      "resolved": "https://registry.npmjs.org/@types/geojson/-/geojson-7946.0.10.tgz",
++      "integrity": "sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==",
++      "dev": true
++    },
++    "node_modules/prettier": {
++      "version": "2.8.0",
++      "resolved": "https://registry.npmjs.org/prettier/-/prettier-2.8.0.tgz",
++      "integrity": "sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==",
++      "dev": true,
++      "bin": {
++        "prettier": "bin-prettier.js"
++      },
++      "engines": {
++        "node": ">=10.13.0"
++      },
++      "funding": {
++        "url": "https://github.com/prettier/prettier?sponsor=1"
++      }
++    }
++  },
++  "dependencies": {
++    "@types/geojson": {
++      "version": "7946.0.10",
++      "resolved": "https://registry.npmjs.org/@types/geojson/-/geojson-7946.0.10.tgz",
++      "integrity": "sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==",
++      "dev": true
++    },
++    "prettier": {
++      "version": "2.8.0",
++      "resolved": "https://registry.npmjs.org/prettier/-/prettier-2.8.0.tgz",
++      "integrity": "sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==",
++      "dev": true
++    }
++  }
++}
+Index: .idea/prettier.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/prettier.xml b/.idea/prettier.xml
+new file mode 100644
+--- /dev/null	(date 1669697832528)
++++ b/.idea/prettier.xml	(date 1669697832528)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="PrettierConfiguration">
++    <option name="myRunOnSave" value="true" />
++    <option name="myRunOnReformat" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1665577164547)
++++ b/.idea/modules.xml	(date 1665577164547)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Log-EffectiveTS.iml" filepath="$PROJECT_DIR$/.idea/Log-EffectiveTS.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/Log-EffectiveTS.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Log-EffectiveTS.iml b/.idea/Log-EffectiveTS.iml
+new file mode 100644
+--- /dev/null	(date 1665577164540)
++++ b/.idea/Log-EffectiveTS.iml	(date 1665577164540)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1665577164558)
++++ b/.idea/vcs.xml	(date 1665577164558)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package.json b/package.json
+new file mode 100644
+--- /dev/null	(date 1669697858483)
++++ b/package.json	(date 1669697858483)
+@@ -0,0 +1,23 @@
++{
++  "name": "study-ef-ts",
++  "description": "Effective-TypeScript Study 학습 정리",
++  "version": "1.0.0",
++  "main": "index.js",
++  "scripts": {
++    "test": "echo \"Error: no test specified\" && exit 1"
++  },
++  "repository": {
++    "type": "git",
++    "url": "git+https://github.com/free-ko/Log-EffectiveTS.git"
++  },
++  "author": "",
++  "license": "ISC",
++  "bugs": {
++    "url": "https://github.com/free-ko/Log-EffectiveTS/issues"
++  },
++  "homepage": "https://github.com/free-ko/Log-EffectiveTS#readme",
++  "devDependencies": {
++    "@types/geojson": "^7946.0.10",
++    "prettier": "^2.8.0"
++  }
++}
+Index: .idea/shelf/2022_12_04_9_01_PM,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/2022_12_04_9_01_PM,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch b/.idea/shelf/2022_12_04_9_01_PM,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1670155304610)
++++ b/.idea/shelf/2022_12_04_9_01_PM,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch	(date 1670155304610)
+@@ -0,0 +1,479 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"7998a4de-55d1-45aa-997f-f1c2e51aa854\" name=\"변경\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/1weak/note.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/1weak/note.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2FlMjJZod11e9PB22TZbywFkInn\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"애플리케이션 수준\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"디폴트 작업\">\n      <changelist id=\"7998a4de-55d1-45aa-997f-f1c2e51aa854\" name=\"변경\" comment=\"\" />\n      <created>1665062350349</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1665062350349</updated>\n      <workItem from=\"1665062351609\" duration=\"471000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 75f17e9d86ed06f1ec940f3b5f8a652c5e303bb6)
+++++ b/.idea/workspace.xml	(date 1670039587139)
++@@ -2,7 +2,16 @@
++ <project version="4">
++   <component name="ChangeListManager">
++     <list default="true" id="7998a4de-55d1-45aa-997f-f1c2e51aa854" name="변경" comment="">
++-      <change beforePath="$PROJECT_DIR$/1weak/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/1weak/note.md" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/items/item19.ts" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/items/item20.ts" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/items/item21.ts" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/items/item33.ts" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/items/item34.ts" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/items/item35.ts" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/items/item36.ts" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/items/item37.ts" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/1weak/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/note.md" afterDir="false" />
++     </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++@@ -16,19 +25,32 @@
++     <option name="stateVersion" value="1" />
++   </component>
++   <component name="ProjectId" id="2FlMjJZod11e9PB22TZbywFkInn" />
+++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+++    <ConfirmationsSetting value="2" id="Add" />
+++  </component>
++   <component name="ProjectViewState">
++     <option name="hideEmptyMiddlePackages" value="true" />
++     <option name="showLibraryContents" value="true" />
++   </component>
++-  <component name="PropertiesComponent"><![CDATA[{
++-  "keyToString": {
++-    "RunOnceActivity.OpenProjectViewOnStart": "true",
++-    "RunOnceActivity.ShowReadmeOnStart": "true",
++-    "WebServerToolWindowFactoryState": "false",
++-    "nodejs_package_manager_path": "npm",
++-    "vue.rearranger.settings.migration": "true"
+++  <component name="PropertiesComponent">{
+++  &quot;keyToString&quot;: {
+++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+++    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/kyw/WebstormProjects/Log-EffectiveTS/node_modules/prettier&quot;,
+++    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+++    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++   }
++-}]]></component>
+++}</component>
+++  <component name="RecentsManager">
+++    <key name="MoveFile.RECENT_KEYS">
+++      <recent name="$PROJECT_DIR$/note" />
+++      <recent name="$PROJECT_DIR$/items" />
+++      <recent name="$PROJECT_DIR$" />
+++    </key>
+++  </component>
++   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
++   <component name="TaskManager">
++     <task active="true" id="Default" summary="디폴트 작업">
++@@ -38,6 +60,13 @@
++       <option name="presentableId" value="Default" />
++       <updated>1665062350349</updated>
++       <workItem from="1665062351609" duration="471000" />
+++      <workItem from="1665062836476" duration="174000" />
+++      <workItem from="1665577145471" duration="20000" />
+++      <workItem from="1669637583791" duration="1444000" />
+++      <workItem from="1669697347807" duration="3729000" />
+++      <workItem from="1669855050822" duration="1224000" />
+++      <workItem from="1669943206859" duration="802000" />
+++      <workItem from="1670029256120" duration="2024000" />
++     </task>
++     <servers />
++   </component>
++@@ -55,4 +84,8 @@
++       </map>
++     </option>
++   </component>
+++  <component name="XSLT-Support.FileAssociations.UIState">
+++    <expand />
+++    <select />
+++  </component>
++ </project>
++\ No newline at end of file
++Index: items/item20.ts
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/items/item20.ts b/items/item20.ts
++new file mode 100644
++--- /dev/null	(date 1669944056772)
+++++ b/items/item20.ts	(date 1669944056772)
++@@ -0,0 +1,10 @@
+++// <다른 타입에는 다른변수 사용하기>
+++// - 서로 관련이 없는 2개의 값을 분리 합니다.
+++// - 변수명을 더 구체적으로 지을 수 있습니다.
+++// - 타입 추론을 향상시키며, 타입 구문이 불필요해집니다.
+++// - 타입이 좀 더 간결해집니다.(string | number 대신, string과 number를 사용)
+++// - let 대신 const로 변수를 선언하게되면 됩니다.(const로 변수를 선언하면 코드가 간결해지고, 타입 체커가 타입을 추론하기에도 좋습니다.)
+++// - 변수의 값은 바뀔 수 있지만, 타입은 일반적으로 바뀌지 않습니다.
+++// - 혼란을 막기 위해 타입이 다른 값을 다룰 때에는 변수를 재사용하지 않도록 합니다.
+++
+++let id: number | string = "123";
++Index: items/item33.ts
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/items/item33.ts b/items/item33.ts
++new file mode 100644
++--- /dev/null	(date 1669638637762)
+++++ b/items/item33.ts	(date 1669638637762)
++@@ -0,0 +1,30 @@
+++type RecordingType = 'studio' | 'live';
+++
+++interface Album {
+++  artist: string;
+++  title: string;
+++  releaseDate: Date;
+++  recordingType: RecordingType
+++}
+++
+++const kindOfBlue:Album = {
+++  artist: 'Miles Davis',
+++  title: 'Kind of Blue',
+++  releaseDate: new Date('1959-08-17'),
+++  recordingType: "studio"
+++}
+++
+++const albums = [kindOfBlue]
+++
+++function getAlbumsOfType(recordingType: RecordingType): Album[] {
+++  return []
+++}
+++
+++function pluck<T, K extends keyof T>(records:T[], key: K): T[K][] {
+++  return records.map(r => r[key])
+++}
+++
+++pluck(albums, 'releaseDate')
+++pluck(albums, "artist")
+++pluck(albums, 'recordingType')
+++pluck(albums, 'releaseDate')
++\ No newline at end of file
++Index: items/item34.ts
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/items/item34.ts b/items/item34.ts
++new file mode 100644
++--- /dev/null	(date 1669638978133)
+++++ b/items/item34.ts	(date 1669638978133)
++@@ -0,0 +1,18 @@
+++type GeoPosition = [number, number]
+++
+++interface Point {
+++  type: 'Point';
+++  coordinates: GeoPosition;
+++}
+++
+++interface LineString {
+++  type: 'LineString';
+++  coordinates: number[][];
+++}
+++
+++interface Polygon {
+++  type: 'Polygon';
+++  coordinates: number[][][];
+++}
+++
+++type Geometry = Point | LineString | Polygon;
++\ No newline at end of file
++Index: items/item21.ts
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/items/item21.ts b/items/item21.ts
++new file mode 100644
++--- /dev/null	(date 1670039542754)
+++++ b/items/item21.ts	(date 1670039542754)
++@@ -0,0 +1,72 @@
+++// <타입 넓히기>
+++// - 런타임에 모든 변수는 유일한 값을 가집니다.
+++// - TS가 작성된 코드를 체크하는 정적 분석 시점에, 변수는 '가능한' 값들의 집한인 타입을 가집니다.
+++// - 상수를 사용해서 변수를 초기화할 때 타입을 명시하지 않으면 타입 체커는 타입을 결정해야 합니다.
+++// - 즉, 지정된 단일 값을 가지고 할당 가능한 값들의 집합을 유추해야 한다는 뜻 입니다.
+++// - 이러한 과정을 '넓히기'라고 부릅니다.
+++// - 넓히기의 과정을 이해한다면 오류의 원인을 파악하고 타입 구문을 더 효과적으로 사용할 수 있을 것 입니다.
+++// - TS가 넓히기를 통해 상수의 타입을 추론하는 법을 이해 해야 합니다.
+++// - 동작에 영향을 줄 수 있는 방법인 'const', '타입 구문', '문맥', 'as const'에 익숙해져야 합니다.
+++
+++interface Vector3 {
+++  x: number;
+++  y: number;
+++  z: number;
+++}
+++function getComponent(vector: Vector3, axis: "X" | "Y" | "Z") {
+++  return vector[axis];
+++}
+++
+++let x = "X";
+++let vec = { x: 10, y: 20, z: 30 };
+++
+++// let으로 선언된 값들은 타입 넓히기가 적용되어서, string 타입으로 추론됨
+++getComponent(vec, x);
+++
+++// mixed가 될 수 있는 타입들
+++// - ('x' | 1)[]
+++// - ['x', 1]
+++// - [string, number]
+++// - readonly [string, number]
+++// - (string | number)[]
+++// - readonly (string | number)[]
+++// - [any, any]
+++// - any[]
+++const mixed = ["x", 1];
+++
+++// v의 타입
+++// - { readonly x:  1 }
+++// - { x: number }
+++// - { {[key]: string]: number }
+++const v = {
+++  x: 1,
+++};
+++
+++v.x = 3;
+++v.x = "3";
+++v.y = 4;
+++v.name = "Pythagoras";
+++
+++// TS 추론 강도를 직접 제어하려면 TS의 기본 동작을 재정의 해야합니다.
+++// TS 기본 동작을 재정의 하는 3가지 방법
+++// - 1. 명시적 타입 구문을 제공
+++// - 2. 타입 체커에 추가적인 문맥을 제공하는 것
+++// - 3. const 단언문을 사용하는 것
+++const newV: { x: 1 | 2 | 3 } = {
+++  x: 1,
+++};
+++
+++const v1 = {
+++  x: 1,
+++  y: 2,
+++};
+++
+++const v2 = {
+++  x: 1 as const,
+++  y: 2,
+++};
+++
+++const v3 = {
+++  x: 1,
+++  y: 2,
+++} as const;
++Index: items/item35.ts
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/items/item35.ts b/items/item35.ts
++new file mode 100644
++--- /dev/null	(date 1669698383967)
+++++ b/items/item35.ts	(date 1669698383967)
++@@ -0,0 +1,26 @@
+++// 데이터가 아닌, API와 명세를 보고 타입 만들기
+++
+++import { Feature, Geometry } from "geojson";
+++
+++function calculateBoundingBox(f: Feature): null {
+++  let box: null = null;
+++
+++  const helper = (coords: any[]) => {
+++    // ...
+++  };
+++
+++  const geometryHelper = (geometry: Geometry) => {
+++    if (geometry.type === "GeometryCollection") {
+++      geometry.geometries.forEach(geometryHelper);
+++    } else {
+++      helper(geometry.coordinates);
+++    }
+++  };
+++
+++  const { geometry } = f;
+++  if (geometry) {
+++    geometryHelper(geometry);
+++  }
+++
+++  return box;
+++}
++Index: items/item36.ts
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/items/item36.ts b/items/item36.ts
++new file mode 100644
++--- /dev/null	(date 1669698984300)
+++++ b/items/item36.ts	(date 1669698984300)
++@@ -0,0 +1,37 @@
+++// <해당 분야의 용어로 타입 이름 짓기>
+++// - data, info, thing, item, object, entity 같은 모호하고 의미 없는 이름은 지양
+++// - 이름을 지을 때는 포함된 내용이나 계산 방식이 아니라, '데이터 자체'가 무엇인지를 고려
+++// - 가독성을 높이고, 추상화 수준을 올리기 위해서 해당 분야의 용어를 사용
+++// - 같은 의미에 다른 이름을 붙이면 안됨. 특별한 의미가 있을 때만 용어를 구분
+++
+++interface Animal {
+++  name: string;
+++  endangered: boolean;
+++  habitat: string;
+++}
+++
+++const leopard: Animal = {
+++  name: "Snow Leopard",
+++  endangered: false,
+++  habitat: "tundra",
+++};
+++
+++type ConservationStatus = "EX" | "EW" | "CR" | "EN" | "VU" | "NT" | "LC";
+++
+++type KoppenClimate = "Af" | "Am" | "As" | "Aw";
+++
+++interface NewAnimal {
+++  commonName: string;
+++  genus: string;
+++  species: string;
+++  status: ConservationStatus;
+++  climates: KoppenClimate[];
+++}
+++
+++const snowLeopard: NewAnimal = {
+++  commonName: "Snow Leopard",
+++  genus: "Panthera",
+++  species: "Uncia",
+++  status: "EX",
+++  climates: ["Af", "Am"],
+++};
++Index: items/item37.ts
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/items/item37.ts b/items/item37.ts
++new file mode 100644
++--- /dev/null	(date 1669701147924)
+++++ b/items/item37.ts	(date 1669701147924)
++@@ -0,0 +1,91 @@
+++// <공식 명칭에는 상표를 붙이기>
+++
+++// 1. 구조적 타이핑 특성으로 인해 발생하는 이상한 결과.
+++interface Vector2D {
+++  x: number;
+++  y: number;
+++}
+++
+++function calculateNorm(p: Vector2D) {
+++  return Math.sqrt(p.x * p.x + p.y * p.y);
+++}
+++
+++calculateNorm({ x: 3, y: 4 }); // 정상 출력(결과:5)
+++
+++const vec3D = { x: 3, y: 4, z: 1 };
+++calculateNorm(vec3D); // 정상 출력...!!!(결과:5)
+++
+++// - calculateNorm 함수가 3차원 백터를 허용하지 않게 하려면, 공식 명칭(nominal typing)을 사용하면 됨.
+++// - 공식 명칭 사용하는 것은 타입이 아니라, '값'의 관점에서 Vector2D를 말하는 것.
+++// - 공식 명칭 개념을 TS에서 흉내 내려면 '상표(brand)'를 붙이면 됨.
+++// - 상표 기법은 타입 시스템에서 동작하지만, 런타임에 상표를 검사하는 것과 동일한 효과를 얻을 수 있음.
+++interface NewVector2D {
+++  _brand: "2d";
+++  x: number;
+++  y: number;
+++}
+++
+++function vec2D(x: number, y: number): NewVector2D {
+++  return { x, y, _brand: "2d" };
+++}
+++
+++function newCalculateNorm(p: NewVector2D) {
+++  return Math.sqrt(p.x * p.x + p.y * p.y);
+++}
+++
+++newCalculateNorm(vec2D(3, 4)); // 정상 출력(결과:5);
+++
+++const newVec3D = { x: 3, y: 4, z: 1 };
+++newCalculateNorm(newVec3D); // branch 속성이 없다는 에러 발생
+++
+++// - 런타임에는 절대 경로('/')로 시작하는지 체크하기 쉽지만, 타입 시스템에서는 절대경로를 판단하기 어렵기 때문에 상표 기법을 사용
+++type AbsolutePath = string & { _brand: "abs" };
+++function listAbsolutePath(path: AbsolutePath) {
+++  //...
+++}
+++
+++function isAbsolutePath(path: string): path is AbsolutePath {
+++  return path.startWith("/");
+++}
+++
+++type Meters = number & { _brand: "meters" };
+++type Seconds = number & { _brand: "seconds" };
+++
+++const meters = (m: number) => m as Meters;
+++const seconds = (s: number) => s as Seconds;
+++
+++const oneKm = meters(1000); // 타입이 Meters
+++const oneMin = seconds(60); // 타입이 Seconds
+++
+++const tenKm = oneKm * 10;
+++const v = oneKm / oneMin;
+++
+++// <User Defined Type Guards>
+++interface ZeroBody {
+++  age: 0;
+++  name: string;
+++}
+++
+++interface OtherBody {
+++  age: number;
+++  name: string;
+++}
+++
+++interface Response {
+++  type: string;
+++  body: ZeroBody | OtherBody;
+++}
+++
+++function isZero(arg: any): arg is ZeroBody {
+++  return arg.age === 0;
+++}
+++
+++function doSomething(arg: Response) {
+++  const { type, body } = arg;
+++
+++  if (isZero(body)) {
+++    console.log(body.age);
+++  } else {
+++    console.log(body.age);
+++  }
+++}
++Index: items/item19.ts
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/items/item19.ts b/items/item19.ts
++new file mode 100644
++--- /dev/null	(date 1669856274932)
+++++ b/items/item19.ts	(date 1669856274932)
++@@ -0,0 +1,17 @@
+++// <추론 가능한 타입을 사용해 장황한 코드 방지하기>
+++// - TS가 타입을 추론할 수 있따면, 타입 구문을 작성하지 않는게 좋습니다.
+++// - 이상적인 경우 함수/메서드의 시그니처에는 타입 구문이 있지만, 함수 내의 지역 변수에는 타입 구문이 없습니다.(비구조할당을 사용하면 지역변수 타입이 자동 추론됩니다.)
+++// - 추론될 수 있는 경우라도 객체 리터럴과 함수 반환에는 타입 명시를 고려해야 합니다. 이는 내부 구현의 오류가 사용자 코드 위치에 나타나는 것을 방지해 줍니다.
+++
+++const cache: { [ticker: string]: number } = {};
+++function getQuote(ticker: string): Promise<number> | number {
+++  if (ticker in cache) {
+++    return cache[ticker];
+++  }
+++  return fetch(`https://quotes.example.com/?q=${ticker}`).then((response) =>
+++    response.json().then((quote) => {
+++      cache[ticker] = quote;
+++      return quote;
+++    })
+++  );
+++}
++diff --git a/1weak/note.md b/note/note.md
++rename from 1weak/note.md
++rename to note/note.md
