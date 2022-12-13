@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7998a4de-55d1-45aa-997f-f1c2e51aa854" name="변경" comment="[LOG] 아이템24 학습">
-      <change afterPath="$PROJECT_DIR$/items/item25.ts" afterDir="false" />
+    <list default="true" id="7998a4de-55d1-45aa-997f-f1c2e51aa854" name="변경" comment="[LOG] 아이템25 학습">
+      <change afterPath="$PROJECT_DIR$/items/item26.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022_12_04_9_02_PM,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022_12_04_9_02_PM__________.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,9 @@
       <workItem from="1665062351609" duration="471000" />
       <workItem from="1670421943475" duration="892000" />
       <workItem from="1670506375003" duration="1435000" />
-      <workItem from="1670749866354" duration="459000" />
+      <workItem from="1670749866354" duration="508000" />
+      <workItem from="1670936686089" duration="89000" />
+      <workItem from="1670937066550" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="[LOG] 공부한 내용 정리">
       <created>1670155621335</created>
@@ -78,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670507806501</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[LOG] 아이템25 학습">
+      <created>1670750358523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670750358523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +110,7 @@
     <MESSAGE value="[LOG] 공부한 내용 정리" />
     <MESSAGE value="[LOG] 아이템23 학습" />
     <MESSAGE value="[LOG] 아이템24 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="[LOG] 아이템24 학습" />
+    <MESSAGE value="[LOG] 아이템25 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="[LOG] 아이템25 학습" />
   </component>
 </project>
