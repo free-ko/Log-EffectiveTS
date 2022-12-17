@@ -18,6 +18,7 @@
   "homepage": "https://github.com/free-ko/Log-EffectiveTS#readme",
   "devDependencies": {
     "@types/geojson": "^7946.0.10",
+    "lodash": "^4.17.21",
     "prettier": "^2.8.0"
   }
 }
